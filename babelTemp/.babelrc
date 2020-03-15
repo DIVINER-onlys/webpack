@@ -1,0 +1,21 @@
+// .babelrc
+{
+  // "plugins": ["@babel/plugin-transform-arrow-functions"],
+  "presets": [
+    [
+      "@babel/preset-env", // 对我们所使用的并且目标浏览器中缺少的功能进行代码转换和加载polyfill，所包含的插件将支持所有最新的JS特性
+      // {
+      //   "useBuiltIns": "usage", // 按需加载代码需要的polyfill
+      //   "corejs": 3 // 指定corejs版本，core-js@3包含新特性
+      // }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 3
+      }
+    ]
+  ]
+}
