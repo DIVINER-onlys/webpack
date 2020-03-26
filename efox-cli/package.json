@@ -1,0 +1,32 @@
+{
+  "name": "efox-cli",
+  "version": "1.0.0",
+  "description": "efox-cli",
+  "bin": {
+    "efox-cli": "bin/efox.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "efox": "efox-cli"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "envinfo": "^7.5.0",
+    "fs-extra": "^9.0.0",
+    "git-promise": "^1.0.0",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3",
+    "semver": "^7.1.3",
+    "shelljs": "^0.8.3",
+    "simple-git": "^1.132.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "author": "sam",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8"
+  }
+}
